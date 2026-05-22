@@ -1,0 +1,8 @@
+name = "onchaingm"
+compatibility_date = "2024-11-01"
+
+# Serve the built React app as static assets
+[assets]
+directory = "./frontend/dist"
+html_handling = "auto-trailing-slash"
+not_found_handling = "single-page-application"
